@@ -4,9 +4,9 @@
 #echo "tzdata tzdata/Areas select Europe" | debconf-set-selections
 #echo "tzdata tzdata/Zones/Europe select Ljubljana" | debconf-set-selections
 
-#command_exists() {
-#    command -v "$1" >/dev/null 2>&1
-#}
+command_exists() {
+    command -v "$1" >/dev/null 2>&1
+}
 #export PATH="/root/miniconda3/bin/:$PATH"
 
 # Define a function to verify the installation of a given command
