@@ -7,7 +7,7 @@
 command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
-#export PATH="/root/miniconda3/bin/:$PATH"
+export PATH="$HOME/miniconda3/bin/:$PATH"
 
 # Define a function to verify the installation of a given command
 verify_installation() {
